@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+  - name: rawdata
+    database: stagingperezaguirre
+    description: "base de datos de staging de la prueba"
+    schema: Rawdata
+    tables:
+      - name: raw_bank_marketing
+
+  - name: stagingperezaguirre
+    database: stagingperezaguirre
+    description: "base de datos de staging de la prueba"
+    schema: dbt_alanperez
+    tables:
+      - name: my_first_dbt_model
