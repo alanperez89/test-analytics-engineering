@@ -1,7 +1,7 @@
 version: 2
 
 sources:
-  - name: rawdata
+  - name: stagingperezaguirre
     database: stagingperezaguirre
     description: "base de datos de staging de la prueba"
     schema: Rawdata
